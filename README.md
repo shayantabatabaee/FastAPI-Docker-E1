@@ -70,3 +70,6 @@
             </ul>
 		</li>
 	</ul>
+<h2> Documentation</h2>
+You can see APIDoc after that server is started using following link:
+<pre><code>http://localhost:8080/redoc</code></pre>
