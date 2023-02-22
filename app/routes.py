@@ -17,3 +17,8 @@ async def hello(name: Union[str, None] = Query(default=None, description="Name o
 @router.get('/author', response_class=PlainTextResponse)
 async def author():
     return "Jalal Tabatabaei"
+
+
+@router.get('/health', response_class=PlainTextResponse)
+async def health():
+    return PlainTextResponse(content="", status_code=200)
