@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: fastapi-docker-e1-service
+  namespace: default
+spec:
+  selector:
+    app: fastapi-docker-e1
+    version: v1
+  type: NodePort
+  ports:
+    - port: 8080
+      name: non-secure
+      targetPort: 8080
+

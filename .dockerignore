@@ -2,3 +2,5 @@
 !/app
 !asgi.py
 !requirements.txt
+!pod.yaml
+!service.yaml
